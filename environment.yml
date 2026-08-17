@@ -3,7 +3,7 @@ prefix: /srv/jupyter
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab==4.3.*
+  - jupyterlab==4.6.3
     # due to https://github.com/jupyterhub/jupyterhub/pull/4039
   - jupyterhub==5.*
   - jupyterhub-singleuser==5.*
@@ -11,5 +11,11 @@ dependencies:
   - batchspawner==1.3.*
   - anywidget==0.9.*
   - nb_conda_kernels==2.5.*
+  - python==3.11
+  - ipympl
+  - holoviews
+  - bokeh
+  - matplotlib
+  - pyviz_comms
   - pip:
-    - jupyterlab-materialdarker==0.7.1
+    - jupyterlab-materialdarker==0.8.0
