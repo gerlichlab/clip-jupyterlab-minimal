@@ -5,6 +5,7 @@ Try me out with Binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gerlichlab/clip-jupyterlab-minimal/HEAD)
 
 ## Perks
+* jupyter-ai with claude code
 * anywidget
 * nb_conda_kernels
 * jupyterlab_materialdarker theme
