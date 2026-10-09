@@ -10,3 +10,7 @@ npm install -g @agentclientprotocol/claude-agent-acp
 
 # 3. Ensure the binaries are accessible in the user path
 export PATH="${HOME}/.npm-global/bin:${PATH}"
+
+# 4. Add Gerlich env
+source /srv/conda/etc/profile.d/conda.sh
+conda env create -f gerlich_env.yml -y
