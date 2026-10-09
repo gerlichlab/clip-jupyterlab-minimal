@@ -46,6 +46,7 @@ dependencies:
   - scikit-image=0.26.*
   - tifffile=2024.5.*
   - pillow=12.*
+  - read-roi=1.6.0
 
   # 6. Bioinformatics: General & ChIP-seq Downstream
   - biopython=1.88
@@ -58,9 +59,4 @@ dependencies:
   - cooler=0.10.4
   - cooltools=0.7.1
   - pairtools=1.1.3
-
-  # 8. Unpackaged / Specialized / PyPI-only Tools
-  - pip
-  - pip:
-      - read-roi
-      - jupyterlab-materialdarker==0.8.0
+ 
